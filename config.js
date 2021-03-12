@@ -9,14 +9,14 @@ module.exports = {
 	/* Dashboard configuration */
 	dashboard: {
 		enabled: false, // whether the dashboard is enabled or not
-		secret: "XXXXXXXXXXX", // Your discord client secret
+		secret: "819766424545394718", // Your discord client secret
 		baseURL: "https://artoss.herokuapp.com/", // The base URl of the dashboard
 		logs: "XXXXXXXXXXX", // The channel ID of logs
 		port: 8080, // Dashboard port
 		expressSessionPassword: "XXXXXXXXXXX", // Express session password (it can be what you want)
 		failureURL: "https://www.atlanta-bot.fr" // url on which users will be redirected if they click the cancel button (discord authentication)
 	},
-	mongoDB: "mongodb+srv://xcalibur:xcalibur@artos.rikee.mongodb.net", // The URl of the mongodb database
+	mongoDB: "", // The URl of the mongodb database
 	prefix: "*", // The default prefix for the bot
 	/* For the embeds (embeded messages) */
 	embed: {
