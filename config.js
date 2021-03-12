@@ -3,30 +3,30 @@ module.exports = {
 	token: "XXXXXXXXXXX",
 	/* For the support server */
 	support: {
-		id: "XXXXXXXXXXX", // The ID of the support server
-		logs: "XXXXXXXXXXX", // And the ID of the logs channel of your server (new servers for example)
+		id: "819201666699100182", // The ID of the support server
+		logs: "819201668066967635", // And the ID of the logs channel of your server (new servers for example)
 	},
 	/* Dashboard configuration */
 	dashboard: {
-		enabled: false, // whether the dashboard is enabled or not
+		enabled: true, // whether the dashboard is enabled or not
 		secret: "819766424545394718", // Your discord client secret
 		baseURL: "https://artoss.herokuapp.com/", // The base URl of the dashboard
 		logs: "XXXXXXXXXXX", // The channel ID of logs
 		port: 8080, // Dashboard port
-		expressSessionPassword: "XXXXXXXXXXX", // Express session password (it can be what you want)
-		failureURL: "https://www.atlanta-bot.fr" // url on which users will be redirected if they click the cancel button (discord authentication)
+		expressSessionPassword: "xcalibur", // Express session password (it can be what you want)
+		failureURL: "https://" // url on which users will be redirected if they click the cancel button (discord authentication)
 	},
 	mongoDB: "", // The URl of the mongodb database
 	prefix: "*", // The default prefix for the bot
 	/* For the embeds (embeded messages) */
 	embed: {
 		color: "#0091fc", // The default color for the embeds
-		footer: "Atlanta | Open Source" // And the default footer for the embeds
+		footer: "XCALIBUR | 🗡️" // And the default footer for the embeds
 	},
 	/* Bot's owner informations */
 	owner: {
 		id: "591558773953396739", // The ID of the bot's owner
-		name: "Androz#2091" // And the name of the bot's owner
+		name: "ＸＣＡＬＩＢＵＲ🗡#6969" // And the name of the bot's owner
 	},
 	/* DBL votes webhook (optional) */
 	votes: {
@@ -51,17 +51,17 @@ module.exports = {
 	},
 	/* The others utils links */
 	others: {
-		github: "https://github.com/Androz2091", // Founder's github account
-		donate: "https://patreon.com/Androz2091" // Donate link
+		github: "", // Founder's github account
+		donate: "" // Donate link
 	},
 	/* The Bot status */
 	status: [
 		{
-			name: "@Atlanta help on {serversCount} servers",
+			name: "@XALIBUR online on {serversCount} servers",
 			type: "LISTENING"
 		},
 		{
-			name: "my website : atlanta-bot.fr",
+			name: "my Discord : ＸＣＡＬＩＢＵＲ🗡#6969",
 			type: "PLAYING"
 		}
 	]
