@@ -9,7 +9,7 @@ module.exports = {
 	/* Dashboard configuration */
 	dashboard: {
 		enabled: true, // whether the dashboard is enabled or not
-		secret: "819766424545394718", // Your discord client secret
+		secret: "231eyPinr9ee5Kfa5fBHgPsa0rllZ0TY", // Your discord client secret
 		baseURL: "https://artoss.herokuapp.com", // The base URl of the dashboard
 		logs: "XXXXXXXXXXX", // The channel ID of logs
 		port: 8080, // Dashboard port
