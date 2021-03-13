@@ -40,4 +40,4 @@ class Play extends Command {
 
 }
 
-module.exports = Play; 
+module.exports = Play;
