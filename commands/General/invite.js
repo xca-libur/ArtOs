@@ -34,7 +34,6 @@ class Invite extends Command {
 				prefix: data.guild.prefix
 			}))
 			.addField(message.translate("general/invite:ADD"), inviteLink)
-			.addField(message.translate("general/invite:VOTE"), voteURL)
 			.addField(message.translate("general/invite:SUPPORT"), supportURL)
 			.setColor(data.config.embed.color)
 			.setFooter(data.config.embed.footer);
