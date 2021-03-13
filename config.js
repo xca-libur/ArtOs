@@ -10,7 +10,7 @@ module.exports = {
 	dashboard: {
 		enabled: true, // whether the dashboard is enabled or not
 		secret: "231eyPinr9ee5Kfa5fBHgPsa0rllZ0TY", // Your discord client secret
-		baseURL: "https://artisticsoff.herokuapp.com/", // The base URl of the dashboard
+		baseURL: "https://artisticsoff.herokuapp.com", // The base URl of the dashboard
 		logs: "XXXXXXXXXXX", // The channel ID of logs
 		port: 8080, // Dashboard port
 		expressSessionPassword: "xcalibur", // Express session password (it can be what you want)
