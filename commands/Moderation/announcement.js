@@ -24,7 +24,7 @@ class Announcement extends Command {
 		if(!text){
 			return message.error("moderation/announcement:MISSING_TEXT");
 		}
-		if(text.length > 1030){
+		if(text.length > 2000){
 			return message.error("moderation/announcement:TOO_LONG");
 		}
 
